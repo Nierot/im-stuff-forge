@@ -1,0 +1,36 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "bedrock_breaker",
+    "customModelName": "Normal",
+    "name": "Bedrock Breaker",
+    "specialInfo": [
+      "Right click on bedrock to break it. Consumes item"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ImStuff"
+    },
+    "toolType": "Special",
+    "harvestLevel": 0,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 1,
+    "blocksAffected": [
+      {
+        "value": "Blocks.BEDROCK"
+      }
+    ],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "BedrockBreakerRightClickedOnBlock"
+    }
+  }
+}

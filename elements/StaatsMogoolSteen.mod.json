@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "staats_mongool_steen_disc_item",
+    "name": "Staatsmongool",
+    "description": "Staatsmongool - Steen & EZG",
+    "creativeTab": {
+      "value": "CUSTOM:ImStuff"
+    },
+    "music": {
+      "value": "CUSTOM:steen_staats-mongool"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

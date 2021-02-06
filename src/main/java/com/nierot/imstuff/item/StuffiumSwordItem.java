@@ -32,7 +32,7 @@ public class StuffiumSwordItem extends ImstuffModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4.5f;
+				return 2.5f;
 			}
 
 			public int getHarvestLevel() {

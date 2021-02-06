@@ -113,6 +113,6 @@ public class StuffiumOreBlock extends ImstuffModElements.ModElement {
 			protected IRuleTestType<?> getType() {
 				return IRuleTestType.BLOCK_MATCH;
 			}
-		}, block.getDefaultState(), 16)).range(32).square().func_242731_b(10));
+		}, block.getDefaultState(), 9)).range(32).square().func_242731_b(10));
 	}
 }

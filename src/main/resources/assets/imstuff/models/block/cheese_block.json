@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "imstuff:blocks/xray_cheese",
+    "particle": "imstuff:blocks/xray_cheese"
+  }
+}

@@ -1,1 +1,12 @@
-{}
+{
+  "steen_staats-mongool": {
+    "category": "music",
+    "subtitle": "subtitles.steen_staats-mongool",
+    "sounds": [
+      {
+        "name": "imstuff:staatsmongool",
+        "stream": true
+      }
+    ]
+  }
+}

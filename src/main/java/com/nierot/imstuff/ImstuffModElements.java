@@ -45,6 +45,8 @@ public class ImstuffModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public ImstuffModElements() {
+		sounds.put(new ResourceLocation("imstuff", "steen_staats-mongool"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("imstuff", "steen_staats-mongool")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("imstuff").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

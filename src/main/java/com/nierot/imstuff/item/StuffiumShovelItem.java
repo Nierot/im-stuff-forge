@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import com.nierot.imstuff.itemgroup.ImStuffItemGroup;
 import com.nierot.imstuff.ImstuffModElements;
 
 @ImstuffModElements.ModElement.Tag
@@ -46,7 +46,7 @@ public class StuffiumShovelItem extends ImstuffModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(StuffiumIngotItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS).isImmuneToFire()) {
+		}, 1, -3f, new Item.Properties().group(ImStuffItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("stuffium_shovel"));
 	}
 }

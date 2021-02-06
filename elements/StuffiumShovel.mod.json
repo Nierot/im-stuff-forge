@@ -8,7 +8,7 @@
     "name": "Stuffium Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:ImStuff"
     },
     "toolType": "Spade",
     "harvestLevel": 3,

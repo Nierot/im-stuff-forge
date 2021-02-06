@@ -87,31 +87,115 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stuffium_ore"
+    },
+    {
+      "name": "BedrockBreakerRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrock_breaker_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BedrockBreaker",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrock_breaker"
+    },
+    {
+      "name": "CheeseBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cheese_block"
+    },
+    {
+      "name": "StaatsMogoolSteen",
+      "type": "musicdisc",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "staats_mogool_steen"
+    },
+    {
+      "name": "StuffBiome",
+      "type": "biome",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stuff_biome"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "steen_staats-mongool",
+      "files": [
+        "staatsmongool"
+      ],
+      "category": "music",
+      "subtitle": "\"Ik ben een staatsmongool\""
+    }
+  ],
   "language_map": {
     "en_us": {
-      "item.imstuff.stuffium_armor_helmet": "Stuffium Helmet",
-      "item.imstuff.stuffium_shovel": "Stuffium Shovel",
       "itemGroup.tabim_stuff": "I\u0027m Stuff",
-      "item.oofyeetkutmod.stuffium_shovel": "Stuffium Shovel",
-      "item.imstuff.stuffium_sword": "Stuffium Pickaxe",
-      "item.oofyeetkutmod.stuffium_armor_chestplate": "Stuffium Chestplate",
-      "item.imstuff.stuffium_hoe": "Stuffium Pickaxe",
-      "item.imstuff.stuffium_armor_chestplate": "Stuffium Chestplate",
+      "item.imstuff.stuffium_sword": "Stuffium Sword",
+      "block.imstuff.cheese_block": "Cheese Block",
+      "item.imstuff.stuffium_hoe": "Stuffium Hoe",
       "item.imstuff.stuffium_armor_boots": "Stuffium Boots",
       "item.oofyeetkutmod.stuffium_armor_leggings": "Stuffium Leggins",
-      "item.oofyeetkutmod.stuffium_pickaxe": "Stuffium Pickaxe",
       "item.oofyeetkutmod.stuffium_sword": "Stuffium Pickaxe",
       "item.oofyeetkutmod.stuffium_armor_helmet": "Stuffium Helmet",
-      "item.oofyeetkutmod.stuffium_axe": "Stuffium Axe",
       "item.imstuff.stuffium_pickaxe": "Stuffium Pickaxe",
-      "block.imstuff.stuffium_ore": "Stuffium Ore",
+      "subtitles.steen_staats-mongool": "\"Ik ben een staatsmongool\"",
       "item.imstuff.stuffium_axe": "Stuffium Axe",
       "item.oofyeetkutmod.stuffium_ingot": "Stuffium Ingot",
       "item.oofyeetkutmod.stuffium_hoe": "Stuffium Pickaxe",
+      "item.imstuff.staats_mogool_steen": "Staatsmongool",
+      "item.imstuff.staats_mogool_steen.desc": "Staatsmongool - Steen \u0026 EZG",
+      "item.imstuff.stuffium_armor_helmet": "Stuffium Helmet",
+      "item.imstuff.stuffium_shovel": "Stuffium Shovel",
+      "item.oofyeetkutmod.stuffium_shovel": "Stuffium Shovel",
+      "item.oofyeetkutmod.stuffium_armor_chestplate": "Stuffium Chestplate",
+      "item.imstuff.stuffium_armor_chestplate": "Stuffium Chestplate",
+      "item.oofyeetkutmod.stuffium_pickaxe": "Stuffium Pickaxe",
+      "item.imstuff.bedrock_breaker": "Bedrock Breaker",
+      "item.oofyeetkutmod.stuffium_axe": "Stuffium Axe",
+      "biome.imstuff.stuff_biome": "Nether Biome",
+      "block.imstuff.stuffium_ore": "Stuffium Ore",
       "item.oofyeetkutmod.stuffium_armor_boots": "Stuffium Boots",
       "item.imstuff.stuffium_ingot": "Stuffium Ingot",
       "item.imstuff.stuffium_armor_leggings": "Stuffium Leggins"

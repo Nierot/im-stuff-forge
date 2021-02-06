@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "stuffium_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:ImStuff"
     },
     "armorTextureFile": "stuffium_",
     "helmetName": "Stuffium Helmet",

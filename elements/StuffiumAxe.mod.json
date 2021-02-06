@@ -8,7 +8,7 @@
     "name": "Stuffium Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:ImStuff"
     },
     "toolType": "Axe",
     "harvestLevel": 1,
