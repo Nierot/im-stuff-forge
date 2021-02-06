@@ -1,28 +1,28 @@
 
-package com.nierot.oofyeetkutmod.item;
+package com.nierot.imstuff.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ShovelItem;
+import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
-import com.nierot.oofyeetkutmod.OofyeetkutmodModElements;
+import com.nierot.imstuff.itemgroup.ImStuffItemGroup;
+import com.nierot.imstuff.ImstuffModElements;
 
-@OofyeetkutmodModElements.ModElement.Tag
-public class StuffiumShovelItem extends OofyeetkutmodModElements.ModElement {
-	@ObjectHolder("oofyeetkutmod:stuffium_shovel")
+@ImstuffModElements.ModElement.Tag
+public class StuffiumSwordItem extends ImstuffModElements.ModElement {
+	@ObjectHolder("imstuff:stuffium_sword")
 	public static final Item block = null;
-	public StuffiumShovelItem(OofyeetkutmodModElements instance) {
-		super(instance, 7);
+	public StuffiumSwordItem(ImstuffModElements instance) {
+		super(instance, 6);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ShovelItem(new IItemTier() {
+		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
 				return 1221;
 			}
@@ -32,7 +32,7 @@ public class StuffiumShovelItem extends OofyeetkutmodModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 3f;
+				return 4.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class StuffiumShovelItem extends OofyeetkutmodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(StuffiumIngotItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS).isImmuneToFire()) {
-		}.setRegistryName("stuffium_shovel"));
+		}, 3, -2.4f, new Item.Properties().group(ImStuffItemGroup.tab).isImmuneToFire()) {
+		}.setRegistryName("stuffium_sword"));
 	}
 }

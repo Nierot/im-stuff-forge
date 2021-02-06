@@ -1,5 +1,5 @@
 
-package com.nierot.oofyeetkutmod.item;
+package com.nierot.imstuff.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
@@ -14,14 +14,14 @@ import net.minecraft.block.BlockState;
 
 import java.util.List;
 
-import com.nierot.oofyeetkutmod.itemgroup.ImStuffItemGroup;
-import com.nierot.oofyeetkutmod.OofyeetkutmodModElements;
+import com.nierot.imstuff.itemgroup.ImStuffItemGroup;
+import com.nierot.imstuff.ImstuffModElements;
 
-@OofyeetkutmodModElements.ModElement.Tag
-public class StuffiumIngotItem extends OofyeetkutmodModElements.ModElement {
-	@ObjectHolder("oofyeetkutmod:stuffium_ingot")
+@ImstuffModElements.ModElement.Tag
+public class StuffiumIngotItem extends ImstuffModElements.ModElement {
+	@ObjectHolder("imstuff:stuffium_ingot")
 	public static final Item block = null;
-	public StuffiumIngotItem(OofyeetkutmodModElements instance) {
+	public StuffiumIngotItem(ImstuffModElements instance) {
 		super(instance, 1);
 	}
 

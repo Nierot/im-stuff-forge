@@ -1,5 +1,5 @@
 
-package com.nierot.oofyeetkutmod.itemgroup;
+package com.nierot.imstuff.itemgroup;
 
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
@@ -7,12 +7,12 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import com.nierot.oofyeetkutmod.item.StuffiumIngotItem;
-import com.nierot.oofyeetkutmod.OofyeetkutmodModElements;
+import com.nierot.imstuff.item.StuffiumIngotItem;
+import com.nierot.imstuff.ImstuffModElements;
 
-@OofyeetkutmodModElements.ModElement.Tag
-public class ImStuffItemGroup extends OofyeetkutmodModElements.ModElement {
-	public ImStuffItemGroup(OofyeetkutmodModElements instance) {
+@ImstuffModElements.ModElement.Tag
+public class ImStuffItemGroup extends ImstuffModElements.ModElement {
+	public ImStuffItemGroup(ImstuffModElements instance) {
 		super(instance, 2);
 	}
 

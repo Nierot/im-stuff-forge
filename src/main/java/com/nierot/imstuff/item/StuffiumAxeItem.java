@@ -1,28 +1,28 @@
 
-package com.nierot.oofyeetkutmod.item;
+package com.nierot.imstuff.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
+import net.minecraft.item.AxeItem;
 
-import com.nierot.oofyeetkutmod.itemgroup.ImStuffItemGroup;
-import com.nierot.oofyeetkutmod.OofyeetkutmodModElements;
+import com.nierot.imstuff.ImstuffModElements;
 
-@OofyeetkutmodModElements.ModElement.Tag
-public class StuffiumSwordItem extends OofyeetkutmodModElements.ModElement {
-	@ObjectHolder("oofyeetkutmod:stuffium_sword")
+@ImstuffModElements.ModElement.Tag
+public class StuffiumAxeItem extends ImstuffModElements.ModElement {
+	@ObjectHolder("imstuff:stuffium_axe")
 	public static final Item block = null;
-	public StuffiumSwordItem(OofyeetkutmodModElements instance) {
-		super(instance, 6);
+	public StuffiumAxeItem(ImstuffModElements instance) {
+		super(instance, 4);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new SwordItem(new IItemTier() {
+		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
 				return 1221;
 			}
@@ -32,11 +32,11 @@ public class StuffiumSwordItem extends OofyeetkutmodModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4.5f;
+				return 7f;
 			}
 
 			public int getHarvestLevel() {
-				return 3;
+				return 1;
 			}
 
 			public int getEnchantability() {
@@ -46,7 +46,7 @@ public class StuffiumSwordItem extends OofyeetkutmodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(StuffiumIngotItem.block, (int) (1)));
 			}
-		}, 3, -2.4f, new Item.Properties().group(ImStuffItemGroup.tab).isImmuneToFire()) {
-		}.setRegistryName("stuffium_sword"));
+		}, 1, -3.1f, new Item.Properties().group(ItemGroup.TOOLS).isImmuneToFire()) {
+		}.setRegistryName("stuffium_axe"));
 	}
 }

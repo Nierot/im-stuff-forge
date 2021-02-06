@@ -1,16 +1,19 @@
 modLoader="javafml"
 loaderVersion="[35,)"
-license="Academic Free License v3.0"
+license="MIT License"
 
 [[mods]]
-modId="oofyeetkutmod"
+modId="imstuff"
 version="1.0.0"
-displayName="oofyeetkutmod"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="Niels, MCreator"
+displayName="imstuff"
+credits="very good mod"
+displayURL="https://nierot.com"
+authors="Nierot"
+description='''
+Random things
+'''
 
-[[dependencies.oofyeetkutmod]]
+[[dependencies.imstuff]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.4]"

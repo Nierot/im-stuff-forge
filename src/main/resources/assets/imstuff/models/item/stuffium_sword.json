@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "oofyeetkutmod:items/stuffium_hoe"
+    "layer0": "imstuff:items/stuffium_sword"
   }
 }

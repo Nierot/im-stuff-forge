@@ -1,5 +1,5 @@
 
-package com.nierot.oofyeetkutmod.item;
+package com.nierot.imstuff.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
@@ -9,14 +9,14 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
 
-import com.nierot.oofyeetkutmod.itemgroup.ImStuffItemGroup;
-import com.nierot.oofyeetkutmod.OofyeetkutmodModElements;
+import com.nierot.imstuff.itemgroup.ImStuffItemGroup;
+import com.nierot.imstuff.ImstuffModElements;
 
-@OofyeetkutmodModElements.ModElement.Tag
-public class StuffiumHoeItem extends OofyeetkutmodModElements.ModElement {
-	@ObjectHolder("oofyeetkutmod:stuffium_hoe")
+@ImstuffModElements.ModElement.Tag
+public class StuffiumHoeItem extends ImstuffModElements.ModElement {
+	@ObjectHolder("imstuff:stuffium_hoe")
 	public static final Item block = null;
-	public StuffiumHoeItem(OofyeetkutmodModElements instance) {
+	public StuffiumHoeItem(ImstuffModElements instance) {
 		super(instance, 5);
 	}
 

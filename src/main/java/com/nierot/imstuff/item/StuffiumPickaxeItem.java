@@ -1,28 +1,28 @@
 
-package com.nierot.oofyeetkutmod.item;
+package com.nierot.imstuff.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
-import net.minecraft.item.AxeItem;
 
-import com.nierot.oofyeetkutmod.OofyeetkutmodModElements;
+import com.nierot.imstuff.itemgroup.ImStuffItemGroup;
+import com.nierot.imstuff.ImstuffModElements;
 
-@OofyeetkutmodModElements.ModElement.Tag
-public class StuffiumAxeItem extends OofyeetkutmodModElements.ModElement {
-	@ObjectHolder("oofyeetkutmod:stuffium_axe")
+@ImstuffModElements.ModElement.Tag
+public class StuffiumPickaxeItem extends ImstuffModElements.ModElement {
+	@ObjectHolder("imstuff:stuffium_pickaxe")
 	public static final Item block = null;
-	public StuffiumAxeItem(OofyeetkutmodModElements instance) {
-		super(instance, 4);
+	public StuffiumPickaxeItem(ImstuffModElements instance) {
+		super(instance, 3);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new AxeItem(new IItemTier() {
+		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
 				return 1221;
 			}
@@ -32,11 +32,11 @@ public class StuffiumAxeItem extends OofyeetkutmodModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 7f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 3;
 			}
 
 			public int getEnchantability() {
@@ -46,7 +46,7 @@ public class StuffiumAxeItem extends OofyeetkutmodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(StuffiumIngotItem.block, (int) (1)));
 			}
-		}, 1, -3.1f, new Item.Properties().group(ItemGroup.TOOLS).isImmuneToFire()) {
-		}.setRegistryName("stuffium_axe"));
+		}, 1, -2.7999999999999998f, new Item.Properties().group(ImStuffItemGroup.tab).isImmuneToFire()) {
+		}.setRegistryName("stuffium_pickaxe"));
 	}
 }

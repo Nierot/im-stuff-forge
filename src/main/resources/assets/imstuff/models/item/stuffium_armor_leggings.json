@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "oofyeetkutmod:items/stuffium_helmet"
+    "layer0": "imstuff:items/stuffium_leggings"
   }
 }
