@@ -78,6 +78,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stuffium_shovel"
+    },
+    {
+      "name": "StuffiumOre",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stuffium_ore"
     }
   ],
   "variable_elements": [],
@@ -99,6 +108,7 @@
       "item.oofyeetkutmod.stuffium_armor_helmet": "Stuffium Helmet",
       "item.oofyeetkutmod.stuffium_axe": "Stuffium Axe",
       "item.imstuff.stuffium_pickaxe": "Stuffium Pickaxe",
+      "block.imstuff.stuffium_ore": "Stuffium Ore",
       "item.imstuff.stuffium_axe": "Stuffium Axe",
       "item.oofyeetkutmod.stuffium_ingot": "Stuffium Ingot",
       "item.oofyeetkutmod.stuffium_hoe": "Stuffium Pickaxe",

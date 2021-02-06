@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "imstuff:blocks/stuffium_ore",
+    "particle": "imstuff:blocks/stuffium_ore"
+  }
+}
