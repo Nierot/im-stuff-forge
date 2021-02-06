@@ -1,0 +1,31 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "stuffium_sword",
+    "customModelName": "Normal",
+    "name": "Stuffium Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ImStuff"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 7.0,
+    "attackSpeed": 1.6,
+    "enchantability": 30,
+    "damageVsEntity": 6.5,
+    "usageCount": 1221,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:StuffiumIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

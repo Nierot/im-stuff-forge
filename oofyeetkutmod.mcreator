@@ -1,0 +1,118 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "StuffiumIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stuffium_ingot"
+    },
+    {
+      "name": "ImStuff",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "im_stuff"
+    },
+    {
+      "name": "StuffiumArmor",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stuffium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "StuffiumPickaxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stuffium_pickaxe"
+    },
+    {
+      "name": "StuffiumAxe",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stuffium_axe"
+    },
+    {
+      "name": "StuffiumHoe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stuffium_hoe"
+    },
+    {
+      "name": "StuffiumSword",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stuffium_sword"
+    },
+    {
+      "name": "StuffiumShovel",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stuffium_shovel"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabim_stuff": "I\u0027m Stuff",
+      "item.oofyeetkutmod.stuffium_shovel": "Stuffium Shovel",
+      "item.oofyeetkutmod.stuffium_armor_chestplate": "Stuffium Chestplate",
+      "item.oofyeetkutmod.stuffium_armor_leggings": "Stuffium Leggins",
+      "item.oofyeetkutmod.stuffium_pickaxe": "Stuffium Pickaxe",
+      "item.oofyeetkutmod.stuffium_ingot": "Stuffium Ingot",
+      "item.oofyeetkutmod.stuffium_sword": "Stuffium Pickaxe",
+      "item.oofyeetkutmod.stuffium_armor_helmet": "Stuffium Helmet",
+      "item.oofyeetkutmod.stuffium_axe": "Stuffium Axe",
+      "item.oofyeetkutmod.stuffium_hoe": "Stuffium Pickaxe",
+      "item.oofyeetkutmod.stuffium_armor_boots": "Stuffium Boots"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "oofyeetkutmod",
+    "modName": "oofyeetkutmod",
+    "version": "1.0.0",
+    "author": "Niels, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.4",
+    "modElementsPackage": "com.nierot.oofyeetkutmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100103117
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "stuffium_hoe",
+    "customModelName": "Normal",
+    "name": "Stuffium Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ImStuff"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 3,
+    "efficiency": 7.0,
+    "attackSpeed": 4.0,
+    "enchantability": 30,
+    "damageVsEntity": 4.0,
+    "usageCount": 1221,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:StuffiumIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

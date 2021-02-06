@@ -1,0 +1,58 @@
+{
+  "_fv": 15,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "stuffium_helmet",
+    "enableBody": true,
+    "textureBody": "stuffium_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "stuffium_leggings",
+    "enableBoots": true,
+    "textureBoots": "stuffium_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "stuffium_",
+    "helmetName": "Stuffium Helmet",
+    "bodyName": "Stuffium Chestplate",
+    "leggingsName": "Stuffium Leggins",
+    "bootsName": "Stuffium Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 3,
+    "damageValueBody": 7,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 3,
+    "enchantability": 9,
+    "toughness": 1.0,
+    "knockbackResistance": 0.5,
+    "equipSound": {
+      "value": "block.bamboo.fall"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:StuffiumIngot"
+      }
+    ]
+  }
+}
